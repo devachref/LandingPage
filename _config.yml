@@ -2,7 +2,7 @@ theme               : Slate
 source              : .
 destination         : ./_site
 collections_dir     : .
-plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+plugins_dir         : _plugins
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
@@ -42,7 +42,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "" # does not include hostname
+baseurl             : ""
 show_dir_listing    : false
 
 # Outputting
