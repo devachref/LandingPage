@@ -1,6 +1,9 @@
 theme               : Slate
 source              : .
 destination         : ./_site
+future              : false
+build_revision      : c5e10463974f1e14d20fa6a4d196c77af43ff68e
+verbose             : true
 collections_dir     : .
 plugins_dir         : _plugins
 layouts_dir         : _layouts
