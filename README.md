@@ -1,4 +1,4 @@
-# Fullstack Task Manager (MERN)
+Task Manager
 ![Task Manager](images/team_collaboration.jpg)
 
 
