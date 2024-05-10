@@ -1,69 +1,179 @@
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.header {
-    background-color: #f8f9fa;
-    padding: 20px 0;
+header {
+  width: 100%;
+  background: #87509C;
+  padding: 10px 0;
 }
 
-.header h1 {
-    margin: 0;
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar-nav .nav-link {
-    color: #333;
+.logo img {
+  display: block;
+  max-width: 100%;
 }
 
-.intro {
-    background-color: #f8f9fa;
-    padding: 50px 0;
-    text-align: center;
+nav ul {
+  list-style: none;
+  display: flex;
 }
 
-.intro h2 {
-    margin-bottom: 20px;
+nav ul li {
+  margin-left: 20px;
+  transition: 0.8s;
 }
 
-.features {
-    padding: 50px 0;
+nav ul li:hover {
+  padding: 1%;
+  cursor: pointer;
 }
 
-.features h2 {
-    margin-bottom: 30px;
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.features .feature {
-    text-align: center;
-    margin-bottom: 30px;
+.header-content {
+  padding: 100px 0 63px;
+  text-align: center;
 }
 
-.features .feature img {
-    max-width: 100px;
+.header-content h2 {
+  color: #fff;
+  line-height: 33px;
+  font-size: 27px;
 }
 
-.about {
-    background-color: #f8f9fa;
-    padding: 50px 0;
-    text-align: center;
+.btn {
+  margin-top: 30px;
+  background: #EB7D4B;
+  padding: 15px 20px;
+  font-size: 15px;
+  border: none;
+  transition: 0.4s ease-in-out;
 }
 
-.about h2 {
-    margin-bottom: 20px;
+.btn:hover {
+  box-shadow: 0px 3px 0px #a25532;
+  color: white;
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+.service,
+.team,
+.skill,
+.portfolio {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
 }
 
+.service-tittle,
+.team-tittle,
+.skill-tittle,
+.portfolio-tittle {
+  width: 550px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 2px solid #161616;
+  display: block;
+  width: 66px;
+  margin: 13px auto;
+}
+
+.service-grid,
+.team-grid,
+.skill-grid,
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.service-one,
+.team-one,
+.skill-one,
+.portfolio-one {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.service-one img,
+.team-one img,
+.skill-one img,
+.portfolio-one img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.service-one h3,
+.team-one h3,
+.skill-one h3,
+.portfolio-one h3 {
+  margin-top: 10px;
+}
+
+.service {
+  background: #17C2A4;
+}
+
+.team {
+  background: #A9A9A9;
+}
+
+.team-one h5 {
+  color: purple;
+}
+
+.social-icon ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.skill {
+  background-color: white;
+}
+
+.portfolio {
+  background: #FFE29B;
+}
+
+.portfolio-btn {
+  margin: 30px auto 0;
+  background-color: #00A1A2;
+  padding: 15px 20px;
+  font-size: 15px;
+  border: none;
+  display: block;
+  transition: 0.4s ease-in-out;
+}
+
+.portfolio-btn:hover {
+  box-shadow: 0px 3px 0px #a25532;
+  color: white;
+}
