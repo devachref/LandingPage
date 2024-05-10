@@ -18,7 +18,7 @@ Task Manager is a cloud-based web application designed to streamline team task m
   - ![Task Manager](images/Tasks.JPG)
 - **Task Properties**:
   - Label tasks, assign priority levels, manage sub-tasks, and upload task assets.
-  - ![Task Manager](images/team_collaboration.jpg)
+  - ![Task Manager](images/Tasks2.jpg)
 - **Trash**:
   - Easily recover deleted tasks or items from the Trash.
   - ![Task Manager](images/trash.JPG)
