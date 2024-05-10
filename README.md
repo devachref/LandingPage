@@ -9,19 +9,19 @@ Task Manager is a cloud-based web application designed to streamline team task m
 
 - **Dashboard**:
   - Stay on top of task activities with the ability to add comments
-  - ![Task Manager](images/Dash2.JPG)
+    ![Task Manager](images/Dash2.JPG)
 - **User Management**:
   - Effortlessly create and manage team accounts, control access, and permissions.
-  - ![Task Manager](images/Teams.JPG)
+    ![Task Manager](images/Teams.JPG)
 - **Task Assignment**:
   - Assign tasks to individual or multiple users, update task details, and track status.
-  - ![Task Manager](images/Tasks.JPG)
+    ![Task Manager](images/Tasks.JPG)
 - **Task Properties**:
   - Label tasks, assign priority levels, manage sub-tasks, and upload task assets.
-  - ![Task Manager](images/Tasks2.jpg)
+    ![Task Manager](images/Tasks2.JPG)
 - **Trash**:
   - Easily recover deleted tasks or items from the Trash.
-  - ![Task Manager](images/trash.JPG)
+    ![Task Manager](images/trash.JPG)
 
 
 ## About Us
