@@ -1,32 +1,77 @@
-![Task Manager](images/team_collaboration.jpg)
+# Library Management System
 
+This is a web-based application designed to manage a library's inventory of books, including tracking book rentals, sales, and availability. The system provides an intuitive user interface for both library staff and users.
 
-## Overview
+## Features
 
-Task Manager is a cloud-based web application designed to streamline team task management.  this platform provides a user-friendly interface for efficient task assignment, tracking, and collaboration. Whether you're an administrator or a regular user, Task Manager offers comprehensive features to enhance productivity and organization.
+- **Dashboard**: Overview of total books, rental and sales statistics.
+- **Book Listing**: View available, rented, and sold books.
+- **Add New Book**: Interface for adding new books to the library inventory.
+- **Book Details**: Information about individual books, including title, author, price, and status.
 
-## Key Features
+## Screenshots
 
-- **Dashboard**:
-  - Stay on top of task activities with the ability to add comments
-    ![Task Manager](images/Dash2.JPG)
-- **User Management**:
-  - Effortlessly create and manage team accounts, control access, and permissions.
-    ![Task Manager](images/Teams.JPG)
-- **Task Assignment**:
-  - Assign tasks to individual or multiple users, update task details, and track status.
-    ![Task Manager](images/Tasks.JPG)
-- **Task Properties**:
-  - Label tasks, assign priority levels, manage sub-tasks, and upload task assets.
-    ![Task Manager](images/Tasks2.JPG)
-- **Trash**:
-  - Easily recover deleted tasks or items from the Trash.
-    ![Task Manager](images/trash.JPG)
+### Dashboard
+![Dashboard](Opera Snapshot_2024-07-04_221915_127.0.0.1.png)
 
+The dashboard provides a quick summary of the library's performance, including the number of available, sold, and rented books, as well as the profits from sales and rentals.
 
-## About Us
+### Book Listing
+![Book Listing](path_to_image_2)
 
-Our mission is to provide an innovative solution to project management challenges. Task Manager was inspired by the need for efficient task management within teams. As developers, we understand the importance of organization and collaboration in project workflows. Task Manager was developed to address these needs, providing a seamless experience for administrators and users alike.
+This page lists all the books in the library's inventory. Each book card displays:
+- Title
+- Author
+- Price
+- Number of pages
+- Status (Available, Rented, Sold)
+
+### Add New Book
+![Add New Book](path_to_image_3)
+
+The form to add a new book includes the following fields:
+- Title
+- Author
+- Book cover photo
+- Author photo
+- Number of pages
+- Price
+- Rental price per day
+- Rental period
+- Total rental cost
+- Status (Available, Rented, Sold)
+- Category (Novel, Art, History, Horror, etc.)
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/library-management-system.git
+    ```
+2. Start the development server:
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+- Navigate to `http://localhost:8000` in your web browser.
+- Use the dashboard to get an overview of the library's performance.
+- Use the book listing page to browse and manage books.
+- Use the "Add New Book" form to add new books to the inventory.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Contact
+
+If you have any questions or suggestions, please feel free to contact the project maintainer at [email@example.com](mailto:email@example.com).
+
 
 
 ## Project Link
