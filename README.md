@@ -12,12 +12,10 @@ This is a web-based application designed to manage a library's inventory of book
 ## Screenshots
 
 ### Dashboard
-![Dashboard](Opera Snapshot_2024-07-04_221915_127.0.0.1.png)
 
 The dashboard provides a quick summary of the library's performance, including the number of available, sold, and rented books, as well as the profits from sales and rentals.
 
 ### Book Listing
-![Book Listing](path_to_image_2)
 
 This page lists all the books in the library's inventory. Each book card displays:
 - Title
@@ -27,7 +25,6 @@ This page lists all the books in the library's inventory. Each book card display
 - Status (Available, Rented, Sold)
 
 ### Add New Book
-![Add New Book](path_to_image_3)
 
 The form to add a new book includes the following fields:
 - Title
@@ -46,11 +43,11 @@ The form to add a new book includes the following fields:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/library-management-system.git
+    git clone https://github.com/devachref/library-management.git
     ```
 2. Start the development server:
     ```bash
-    npm start
+    python manage.py runserver
     ```
 
 ## Usage
@@ -60,20 +57,7 @@ The form to add a new book includes the following fields:
 - Use the book listing page to browse and manage books.
 - Use the "Add New Book" form to add new books to the inventory.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-If you have any questions or suggestions, please feel free to contact the project maintainer at [email@example.com](mailto:email@example.com).
-
-
 
 ## Project Link
 
-[Task Manager GitHub Repository](https://github.com/devachref/TaskManager)
+[Task Manager GitHub Repository](https://github.com/devachref/library-management.git)
